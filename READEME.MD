@@ -1,0 +1,1 @@
+command executar elint => eslint src --ext .ts,.tsx
