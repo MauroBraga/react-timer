@@ -42,7 +42,7 @@ export function Home(){
             task:data.task,
             minutesAmount: data.minutesAmount,
         }
-        setCycles([...cycles, newCycle])
+        setCycles((state) => [...state, newCycle])
         setActiveCycleId(id)
 
         reset();
